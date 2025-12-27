@@ -1,0 +1,28 @@
+@import './base.css';
+body, #app {
+  margin: 0;
+  padding: 0;
+
+}
+html {
+  scroll-behavior: auto !important;
+}
+#app {
+  width: 100%;
+}
+
+
+@media (hover: hover) {
+}
+
+@media (min-width: 1024px) {
+  body {
+overflow-x: hidden;
+
+  }
+
+  #app {
+    display: block;
+    width: auto;
+  }
+}
